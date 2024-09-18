@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuickRecap</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+
+<body class="fade-out">
+    <!-- Transparent Header Section -->
+    <header class="transparent-header">
+        <div class="header-left">
+            <a href="Log&Sign.html">Log in</a> |
+            <a href="Log&Sign.html">Sign up</a>
+        </div>
+        <div class="header-right">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="purpose.html">Purpose</a>
+        </div>
+    </header>    
+
+    <!-- Main Landing Content -->
+    <div class="landing-container">
+        <!-- Logo Placeholder -->
+        <img src="https://banner2.cleanpng.com/20180427/bfq/kisspng-internet-society-internet-engineering-task-force-i-party-and-government-conference-5ae34b129d6434.5780441015248453306447.jpg" alt="Your Logo" class="logo">
+
+        <!-- Quick Recap Title -->
+        <h2 id="quick-recap" class="quick-recap">QuickRecap</h2>
+
+        <!-- Search Bar -->
+        <div class="search-bar">
+            <input type="text" placeholder="Search...">
+            <button><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF2bqTHLKz9I9sb9ZD4AiQjnpkbJZgvvP0cQ&s" alt="Search Icon"></button>
+        </div>
+    </div>
+
+    <!-- Language Selector -->
+    <div class="language-selector">
+        <label for="language">Select Language:</label>
+        <select id="language" onchange="translate()">
+            <option value="en">English</option>
+            <option value="es">Spanish</option>
+            <option value="fr">French</option>
+            <option value="de">German</option>
+            <option value="zh">Chinese</option>
+        </select>
+    </div>
+</body>
+
+</html>
